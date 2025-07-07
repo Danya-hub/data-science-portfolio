@@ -1,0 +1,53 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*.so
+
+# Distribution / packaging
+.Python
+env/
+venv/
+build/
+develop-eggs/
+dist/
+eggs/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# PyInstaller
+*.spec
+
+# Pytest
+.pytest_cache/
+.coverage
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+
+# IDEs
+.idea/  # IntelliJ IDEA
+.vscode/ # Visual Studio Code
+*.iml   # IntelliJ IDEA module files
+.DS_Store # macOS specific
+
+# Data and Models (if not tracked)
+data/
+models/
+checkpoints/
+uploads/
+
+# Logs
+logs/
+*.log
+
+# Temporary files
+*.tmp
+*.temp
+
+# Environment variables (if present in a file)
+.env
+
+# Other generated files
+output/
+results/
